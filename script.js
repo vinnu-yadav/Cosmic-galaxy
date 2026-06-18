@@ -101,7 +101,7 @@ const composer = new EffectComposer(renderer);
 composer.addPass(renderScene);
 composer.addPass(bloomPass);
 
-const particleCount = 13500000;
+const particleCount = 9990000;
 const geometry = new THREE.BufferGeometry();
 const positions = new Float32Array(particleCount * 3);
 const ids = new Float32Array(particleCount);
